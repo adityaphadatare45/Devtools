@@ -5,8 +5,8 @@
 */
 import 'package:flutter/material.dart';
 
-class Welcomescreen extends StatelessWidget{
-  const Welcomescreen({super.key});
+class WelcomeScreen extends StatelessWidget{
+  const WelcomeScreen({super.key});
   
   @override
   Widget build(BuildContext context) {
@@ -50,8 +50,42 @@ class Welcomescreen extends StatelessWidget{
                 ),
               ),
           ),
+          const SizedBox(height: 40,),
+          ElevatedButton(
+            onPressed: (){},
+            child: Text('SIGNUP TO DEVTOOLS', 
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 18,
+              fontWeight: FontWeight.bold,             
+             ),
+            ),
+          ),
           const SizedBox(height: 20,),
-         // ElevatedButton(onPressed: onPressed, child: child)
+           ElevatedButton(
+            onPressed: (){},
+            child: Text('LOGIN TO DEVTOOLS', 
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 18,
+              fontWeight: FontWeight.bold,              
+             ),
+            ),
+          ),
+          const SizedBox(height: 20,),
+          Text(
+            "OR",
+          style: TextStyle(
+             color: Colors.black,
+             fontSize: 16,
+             fontWeight: FontWeight.normal,
+          ),
+          ),
+          const SizedBox(height: 15,),
+          ElevatedButton(
+            onPressed: (){},
+            child: Text('GOOGLE')           
+          ),
         ],
        ),
      ),
