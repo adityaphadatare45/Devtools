@@ -3,6 +3,7 @@
 1. Create appbar 
 2. Design the layout
 */
+import 'package:devtools/screens/homescreen.dart';
 import 'package:flutter/material.dart';
 
 class WelcomeScreen extends StatelessWidget{
@@ -38,13 +39,23 @@ class WelcomeScreen extends StatelessWidget{
             const SizedBox(height: 40),
             ElevatedButton(
               style: _buttonStyle(),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Homescreen()), 
+                );
+              },
               child: const Text("Sign Up to DevTools"),
             ),
             const SizedBox(height: 16),
             ElevatedButton(
               style: _buttonStyle(),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Homescreen()), 
+                );
+              },
               child: const Text("Log In to DevTools"),
             ),
             const SizedBox(height: 30),

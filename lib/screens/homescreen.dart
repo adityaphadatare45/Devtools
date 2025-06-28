@@ -23,6 +23,15 @@ class Homescreen extends StatefulWidget{
         centerTitle: true,
         elevation: 0,
       ),
+      body: Padding(
+        padding: const EdgeInsets.all(24),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Text('Welcome Back!')
+          ],
+        ),
+      ),
     );
   }
   
