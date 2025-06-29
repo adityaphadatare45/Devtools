@@ -47,7 +47,7 @@ class WelcomeScreen extends StatelessWidget{
               },
               child: const Text("Sign Up to DevTools"),
             ),
-            const SizedBox(height: 16),
+            const SizedBox(height: 35),
             ElevatedButton(
               style: _buttonStyle(),
               onPressed: () {
@@ -58,7 +58,7 @@ class WelcomeScreen extends StatelessWidget{
               },
               child: const Text("Log In to DevTools"),
             ),
-            const SizedBox(height: 30),
+            const SizedBox(height: 35),
             Row(
               children: const [
                 Expanded(child: Divider(thickness: 1)),
@@ -73,13 +73,13 @@ class WelcomeScreen extends StatelessWidget{
                 Expanded(child: Divider(thickness: 1)),
               ],
             ),
-            const SizedBox(height: 30),
+            const SizedBox(height: 35),
             ElevatedButton(
               style: _socialButtonStyle(),
               onPressed: () {},
               child: const Text("Google"),
             ),
-            const SizedBox(height: 16),
+            const SizedBox(height: 35),
             ElevatedButton(
               style: _socialButtonStyle(),
               onPressed: () {},
