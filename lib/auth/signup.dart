@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
-class Signup with ChangeNotifier{
+class Signup extends ChangeNotifier {
   
 }

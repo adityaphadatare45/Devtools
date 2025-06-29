@@ -5,6 +5,9 @@
 */
 import 'package:devtools/screens/homescreen.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:devtools/providers/auth_provider.dart'; // adjust path if needed
+
 
 class WelcomeScreen extends StatelessWidget{
   const WelcomeScreen({super.key});

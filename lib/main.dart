@@ -1,8 +1,15 @@
+import 'package:devtools/providers/auth_provider.dart';
 import 'package:flutter/material.dart';
-import 'package:devtools/welcomescreen.dart';
+import 'package:devtools/screens/welcomescreen.dart';
+import 'package:provider/provider.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    ChangeNotifierProvider(
+      create:(context) => AuthProvider(),
+      child: MyApp(),
+    )
+  );
 }
 
 class MyApp extends StatelessWidget {
