@@ -30,7 +30,24 @@ class Homescreen extends StatefulWidget{
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text('Welcome Back!')
+            Text('Welcome Back!',
+            style: TextStyle(
+             color: Colors.black,
+             fontSize: 24,
+             fontWeight: FontWeight.bold,
+
+            ),
+            ),
+            const SizedBox(height: 20),
+            TextButton(
+              onPressed: (){},
+              child: Text("Add Event"),
+              ),
+              FloatingActionButton(
+              onPressed: (){},
+              
+
+            ),
           ],
         ),
       ),
