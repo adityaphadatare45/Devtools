@@ -44,9 +44,12 @@ class Homescreen extends StatefulWidget{
               child: Text("Add Event"),
               ),
               FloatingActionButton(
-              onPressed: (){},
+              onPressed: (){
               
-
+              },
+              foregroundColor: Color.fromRGBO(74, 66,66, 100),
+              child: const Icon(Icons.add),
+              
             ),
           ],
         ),
