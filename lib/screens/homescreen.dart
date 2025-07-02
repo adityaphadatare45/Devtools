@@ -19,7 +19,7 @@ class HomescreenPage extends State<Homescreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFECE8E8FF),
+      backgroundColor: const Color(0xffece8e8ff),
       appBar: AppBar(
         backgroundColor: const Color(0xFF4A4040),
         leading: const Icon(Icons.menu, color: Colors.white),
